@@ -1,38 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 70px auto 70px auto;
+  height: 500px;
+  width: 100%;
+  max-width: 350px;
+  border: 7px solid #e16a54;
+  border-radius: 40px;
+  background-color: #ef8a52;
+  box-sizing: border-box;
+  padding: 25px;
+  box-shadow: rgba(109, 155, 183, 0.482) -15px -15px, 
+rgba(109, 155, 183, 0.47) -10px -10px, 
+rgba(109, 155, 183, 0.725) -5px -5px, 
+rgba(26, 72, 103, 0.725) 5px 5px, 
+rgba(26, 72, 103, 0.47) 10px 10px,
+rgba(26, 72, 103, 0.482) 15px 15px;
+}
+
+.calcCont .calcScreen {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.calcCont .calcScreen input {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: none;
+  height: 65px;
+  flex: 1;
+  font-size: 40px;
+  background-color: #f19a6b;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.calcCont input {
+  border: 3px solid #E65C19;
+  width: 60px;
+  height: 60px;
+  margin: 5.6px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   color: white;
+  background: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+.calcCont input:hover {
+  border: 3px solid rgb(241, 196, 173);
+  background-color: #ed6013;
+  transition: background-color 0.3s, border 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calcCont .equals {
+  width: 132px;
 }
+
+
+/* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, 
+rgba(240, 46, 170, 0.3) 10px 10px, 
+rgba(240, 46, 170, 0.2) 15px 15px, 
+rgba(240, 46, 170, 0.1) 20px 20px, 
+rgba(240, 46, 170, 0.05) 25px 25px;
+
+box-shadow: rgba(112, 29, 176, 0.872) 0px 5px,
+  rgba(112, 29, 176, 0.647) 0px 10px, 
+  rgba(112, 29, 176, 0.482) 0px 15px, 
+  rgba(112, 29, 176, 0.283) 0px 20px, 
+  rgba(112, 29, 176, 0.091) 0px 25px; */

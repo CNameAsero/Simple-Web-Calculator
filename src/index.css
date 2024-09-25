@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFC6C6;
+  background-image: url("./media/images/subtle_bgimg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
 }
 
 code {
