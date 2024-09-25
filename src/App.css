@@ -36,7 +36,7 @@ rgba(26, 72, 103, 0.482) 15px 15px;
   font-size: 40px;
   background-color: #f19a6b;
   margin-bottom: 12px;
-  margin-top: 0;
+  margin-top: 0; /* try */
 }
 
 .calcCont input {
