@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-To use, download VSCode or just use cmd and type D: or C: (depending on the drive you had put it) -> cd web_calculator\calculator -> npm start ENJOY!!
 
 ## Available Scripts
 
